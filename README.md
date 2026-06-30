@@ -149,7 +149,7 @@ The ensemble is your panel of experts - high scores are indicative but are not p
 
 When using this script for research, you may use a decision methodology that suits you, e.g.
 * **OR gate**: If any of the models returns a score higher that your specific threshold, you can consider it a positive for the ensemble.
-* **Unanimity**: You consider the output as a positive for the ensemble only if all models return scores higher that your specific threshold.
+* **Unanimity**: You consider the output as a positive for the ensemble only if all models return scores higher that your specific threshold. *(in this case, it is advised not to separately count both OpenAI models - use only one of these at a maximum)*
 * **Hard Voting / Consensus**: You consider the output as a positive for the ensemble if a majority of the models return scores higher that your specific threshold. *(in this case, it is advised not to separately count both OpenAI models - use only one of these at a maximum)*
 * **Soft voting**: You would average the scores of different models, and compare that to your specific threshold. *(in this case, it is advised not to separately count both OpenAI models - use only one of these at a maximum)*
 * **Other / None of the above**: You can apply your judgement to come up with another way to decide.
